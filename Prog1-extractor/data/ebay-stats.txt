@@ -1,0 +1,5 @@
+Statistical Report on ebay's 2022 10-k form:
+Lines: 1980
+Words: 25223
+Chars: 168293
+Parts: 2
