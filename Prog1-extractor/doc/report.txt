@@ -1,27 +1,34 @@
-1-page Report for Prog Assignment 1
+Lea Frost
+CSCE 240
+Report for Prog Assignment 1
 
 The goal of this program is to read from a local text file 
 and report how many lines, words, characters. For a 10-k specifically, 
 it needs to report the number of parts. It must both print to the terminal
 and to an output file.
 
-First, I saved the report to as a text file and put it in my "data" folder.
-Then, in my source folder I created the "FileReader" module for reading 
+First, I saved the 10-k report for each company as text files and put them 
+in my "data" folder.
+Then, in my source folder I created the "extractor" module for reading 
 a file and printing the stats. I first initialize the variables for lines, 
 chars, words, and parts and set them all to 0. Then I wrote the readFile() 
 method which takes in a file name. It iterates through each line in the file
-and and for each line it increases the number of lines by 1, counts the number
+and for each line it increases the number of lines by 1, counts the number
 of words and adds that value to the word count, and counts the number of 
 characters using the length of each line. Additionally, it searches for parts
 by searching for the word "PART" in all caps and adding the lines to a list. 
 After all lines are searched, the number of parts is found by removing 
-duplicates and and taking the length of that list. 
+duplicates and taking the length of that list. After this, the file is 
+closed.
 
-Next, I wrote the printStats() method for printing to the output file and to
-the terminal. It prints the variables to the terminal and then opens the 
-stats.txt file with the correct company name, writes to the file, then closes the file.
+Next I wrote the printStats() method for printing to the output file and to
+the terminal. It creates the string output which includes all of the variables
+and prints the string to the terminal. It then opens the stats.txt file with 
+the corresponding company name, writes the same string to the file, then 
+closes the file.
 
-In the test folder, I created a program to test the file reader. It prompts
-the user for which company's report they want stats on, then uses the 
-readFile() and printStats(). If the input is invalid, it will inform the user. 
-After these are run, the program terminates. 
+In the test folder, I created a program to test the file reader. It imports the
+functionality from the extractor file. It prompts the user for which company's 
+report they want stats on, then uses the readFile() and printStats(). If the 
+input is invalid, it will inform the user. After these are run, the program 
+terminates. 
