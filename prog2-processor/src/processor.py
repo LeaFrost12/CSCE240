@@ -7,8 +7,8 @@ import re
 
 #Initialize file name
 
-#returns the contents of an item
-def printItem(start,end, file):
+#returns the contents of an item using a start and end pattern
+def printItem(start, end, file):
     #initialize a text string to store the text
     text = ""
     #initialize the regex start and end
@@ -27,6 +27,7 @@ def printItem(start,end, file):
                 break
     #print to file
     printToFile(text)
+    #print to command line
     print(f"Here is the answer to that question:\n{text}")
 
 #findPart() for determining what part the user wants and then returning that part from the array
@@ -61,7 +62,7 @@ def findPart(str):
         return printItem(r"(?i)ITEM 7A.\s*Quantitative and Qualitative Disclosures About Market Risk", r"(?i)ITEM 8.\s*Financial Statements and Supplementary Data", file)
     #Item 10: Directors
     elif "DIRECTOR" in str:
-        return printItem(r"(?i)ITEM 10.\s*Directors, Executive Officers and Corporate Governance", r"(?i)ITEM 11.\s*Executive Compensation", file)
+        return printItem(r"(?i)ITEM 10.\s*Directors, Executive Officers, and Corporate Governance", r"(?i)ITEM 11.\s*Executive Compensation", file)
     #Item 11: #Compensation
     elif "COMPENSATION" in str:
         return printItem(r"(?i)ITEM 11.\s*Executive Compensation", r"(?i)ITEM 12.", file)
@@ -69,7 +70,7 @@ def findPart(str):
     elif "STATEMENT" in str:
         return printItem(r"(?i)ITEM 15.\s*Exhibit and Financial Statement Schedules", r"(?i)ITEM 16.", file)
     #all information
-    elif "all information" in str:
+    elif "ALL INFORMATION" in str:
         return printItem(r"(?i)ITEM 1.\s*BUSINESS", r"(?i)ITEM 16.", file)
     else:
         print("Sorry, I don't recognize that question. Please ask one of the questions listed in the documentation file 'test_output.txt'.")

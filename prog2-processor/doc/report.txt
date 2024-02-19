@@ -1,0 +1,12 @@
+Lea Frost
+Report for PA2 
+CSCE 240
+
+Instructions for running: While in the directory "prog2-processor", 
+run the command "python test/test.py"
+
+The goal of this program is to be able to answer certain questions about both businesses 
+(Apple and Amazon) based on information from their 10-k forms. Each question must be mapped
+to a specific item/section from the form and the contents of that section is returned when
+a question is asked. The results of the question are written to an output file and to the 
+command line. 
