@@ -10,3 +10,26 @@ The goal of this program is to be able to answer certain questions about both bu
 to a specific item/section from the form and the contents of that section is returned when
 a question is asked. The results of the question are written to an output file and to the 
 command line. 
+
+I created a processor module that contains the methods that I implement in my test module.
+The processor module contains the methods printItem(), findPart(), and printToFile().
+
+The printItem() method takes in a start and end regex pattern and the name of a file. 
+It initializes the patterns as regex and an empty text string. It then iterates through the 
+file line by line, and if a line contains the start pattern, it adds each successive line to 
+the text string until the end pattern is reached. Once the end pattern is reached, the text is
+printed to the output file (using printToFile()) and to the commandline. The text contains all 
+lines from the desired item.
+
+The findPart() method determines the company and maps the question to the item of interest. 
+Each item has a keyword (eg. "business" for item 1, "risk factors" for item 1A) and if the 
+question contains that keyword, the printItem() method is called to print the contents of that 
+item. If the question isn't recognized, the user is told. Additionally, it checks which company
+name is in the question and sets the file name to that file (Apple-2023.txt or Amazon-2022.txt).
+If the company isn't recognized, the user is told. 
+
+The printToFile() method takes in a string and opens the output file and writes the string to 
+the file.
+
+The test.py module imports the processor module, asks the user to input their question, then
+calls the findPart() method with the question as input.
