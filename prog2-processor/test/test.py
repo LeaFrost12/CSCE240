@@ -6,7 +6,7 @@
 from src.processor import *
 
 #take input from user
-input = input(print("Enter the command you would like to run:\n>"))
+input = input("Enter the question you would like to ask:\n>")
 
 #Enter the input into this method which returns the answer
 findPart(input.upper())

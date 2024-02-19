@@ -1817,36 +1817,30 @@ Item 9C.	Disclosure Regarding Foreign Jurisdictions that Prevent Inspections
  
 Not applicable.
 PART III
-Item 10.	
-Directors, Executive Officers, and Corporate Governance
+Item 10.	Directors, Executive Officers, and Corporate Governance
  
 Information regarding our Executive Officers required by Item 10 of Part III is set forth in Item 1 of Part I “Business — Information About Our Executive Officers.” Information required by Item 10 of Part III regarding our Directors and any material changes to the process by which security holders may recommend nominees to the Board of Directors is included in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders, and is incorporated herein by reference. Information relating to our Code of Business Conduct and Ethics and, to the extent applicable, compliance with Section 16(a) of the 1934 Act is set forth in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders and is incorporated herein by reference. To the extent permissible under Nasdaq rules, we intend to disclose amendments to our Code of Business Conduct and Ethics, as well as waivers of the provisions thereof, on our investor relations website under the heading “Corporate Governance” at amazon.com/ir.
 
-Item 11.	
-Executive Compensation
+Item 11.	Executive Compensation
  
 Information required by Item 11 of Part III is included in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
 
-Item 12.	
-Security Ownership of Certain Beneficial Owners and Management and Related Shareholder Matters
+Item 12.	Security Ownership of Certain Beneficial Owners and Management and Related Shareholder Matters
  
 Information required by Item 12 of Part III is included in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
 
-Item 13.	
-Certain Relationships and Related Transactions, and Director Independence
+Item 13.	Certain Relationships and Related Transactions, and Director Independence
  
 Information required by Item 13 of Part III is included in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
 
-Item 14.	
-Principal Accountant Fees and Services
+Item 14.	Principal Accountant Fees and Services
  
 Information required by Item 14 of Part III is included in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
 71
 Table of Contents
 
 PART IV
-Item 15.	
-Exhibits, Financial Statement Schedules
+Item 15.	Exhibits, Financial Statement Schedules
  
 (a) List of Documents Filed as a Part of This Report:
 (1) Index to Consolidated Financial Statements:
@@ -1935,8 +1929,7 @@ The cover page from the Company’s Annual Report on Form 10-K for the year ende
 __________________
 †    Executive Compensation Plan or Agreement.
 
-Item 16.	
-Form 10-K Summary
+Item 16.	Form 10-K Summary
  
 None.
 74
