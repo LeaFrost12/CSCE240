@@ -1,11 +1,11 @@
 Instructions for running:
 From the "prog2-processor" directory, run the command "python test/test.py". 
-Run this command each time you wish to ask a question
+Run this command each time you wish to ask a question.
 
 Supported commands/outputs (not case sensitive):
 
 Command: "What is [apple's/amazon's] business?"
-Output: Content from Item 1s
+Output: Content from Item 1
 
 Command:"What are [apple's/amazon's] risk factors?"
 Output: Content from Item 1A

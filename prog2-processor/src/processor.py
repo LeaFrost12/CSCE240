@@ -14,10 +14,10 @@ def printItem(start, end, file):
     start = re.compile(start)
     end = re.compile(end)
 
-    #iterate through each line in the file
+    #iterate through each line in the file to find start pattern
     #open 10k file
     with open(file, "r", encoding="utf8") as f:
-
+        #iterate through each line
         for line in f:
 
             #when the start expression is found, add each line until the end expression is reached
