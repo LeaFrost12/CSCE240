@@ -6,7 +6,7 @@
 import re
 
 #returns the contents of an item using a start and end pattern
-def printItem(start, end, file):
+def printItem(start, end, fileName):
     #initialize a text string to store the text
     text = ""
 
@@ -16,7 +16,7 @@ def printItem(start, end, file):
 
     #iterate through each line in the file to find start pattern
     #open 10k file
-    with open(file, "r", encoding="utf8") as f:
+    with open(fileName, "r", encoding="utf8") as f:
         #iterate through each line
         for line in f:
 
@@ -42,21 +42,34 @@ def findPart(str):
     #If the user chooses to quit, print goodbye
     if (("QUIT" in str) | ("Q" in str)):
         print("\nYou have terminated the chat. Goodbye.\n")
-        return
+        exit()
 
     #determine what business they question is asking about and set the path to that file
     #apple
     if "APPLE" in str:
-        file = "data/Apple-2023.txt"
+        file = "../data/Apple-2023.txt"
 
     #amazon
     elif "AMAZON" in str:
-        file = "data/Amazon-2022.txt"
+        file = "../data/Amazon-2022.txt"
 
-    #if company name is not included, ask them to try again
+    #if company name is not included, continue to prompt them for a business name
     else:
-        print(f"\n{str} - I do not know this information.\nPlease include the business name and try again. You can ask about Apple or Amazon.")
-        return
+        business = ""
+        #while apple and amazon are not in business
+        while not "APPLE" in business and not "AMAZON" in business:
+            #prompt user for business
+            business = input("\nI didn't catch the name of the business. Is your question about apple or amazon? Enter \"quit\" or \"q\" to quit.\n>").upper()
+            #if apple is in business
+            if "APPLE" in business:
+                file = "../data/Apple-2023.txt"
+            #if amazon is in business
+            elif "AMAZON" in business:
+                file = "../data/Amazon-2022.txt"
+            #if user wants to quit
+            elif ("QUIT" in business) or ("Q" in business):
+                print("\nYou have terminated the chat. Goodbye.\n")
+                exit()
     
     #business name was found, now decide what question they are asking and print the item contents
     #Item 1: Business
@@ -110,10 +123,10 @@ def printToFile(str):
     #notify that the output has been printed to a file
     print("\nThe answer has been written in an output file.")
     #open file for writing
-    with open("data/output.txt", "w", encoding = "utf8") as file:
+    with open("../data/output.txt", "w", encoding = "utf8") as outFile:
 
         #write to file
-        file.write(str)
+        outFile.write(str)
 
 #main class
 def main():

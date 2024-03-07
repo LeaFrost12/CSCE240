@@ -1,5 +1,5 @@
 Instructions for running:
-From the "prog2-processor" directory, run the command "python src/ui.py". 
+From the "src" directory, run the command "python ui.py". 
 Run this command each time you wish to ask a question.
 
 Supported commands/outputs (not case sensitive):

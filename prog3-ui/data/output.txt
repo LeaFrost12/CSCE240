@@ -1,34 +1,67 @@
-Item 7A.	Quantitative and Qualitative Disclosures About Market Risk
+Item 1.	Business
  
-We are exposed to market risk for the effect of interest rate changes, foreign currency fluctuations, and changes in the market values of our investments. Information relating to quantitative and qualitative disclosures about market risk is set forth below and in Item 7 of Part II, “Management’s Discussion and Analysis of Financial Condition and Results of Operations — Liquidity and Capital Resources.”
-Interest Rate Risk
-Our exposure to market risk for changes in interest rates relates primarily to our investment portfolio and our debt. Our long-term debt is carried at amortized cost and fluctuations in interest rates do not impact our consolidated financial statements. However, the fair value of our long-term debt, which pays interest at a fixed rate, will generally fluctuate with movements of interest rates, increasing in periods of declining rates of interest and declining in periods of increasing rates of interest.
-We generally invest our excess cash in AAA-rated money market funds and investment grade short- to intermediate-term fixed income securities. Fixed income securities may have their fair market value adversely affected due to a rise in interest rates, and we may suffer losses in principal if forced to sell securities that have declined in market value due to changes in interest rates. The following table provides information about our cash equivalents and marketable fixed income securities, including principal cash flows by expected maturity and the related weighted-average interest rates as of December 31, 2022 (in millions, except percentages):
-2023		2024		2025		2026		2027		Thereafter		Total		Estimated Fair Value as of December 31, 2022
-Money market funds		$	27,899 			$	— 			$	— 			$	— 			$	— 			$	— 			$	27,899 			$	27,899 	
-Weighted average interest rate		4.18 	%		— 	%		— 	%		— 	%		— 	%		— 	%		4.18 	%		
-Corporate debt securities		17,500 			2,486 			2,332 			748 			9 			— 			23,075 			22,627 	
-Weighted average interest rate		4.06 	%		0.97 	%		1.23 	%		1.45 	%		2.33 	%		— 	%		3.35 	%		
-U.S. government and agency securities		819 			358 			554 			396 			80 			75 			2,282 			2,146 	
-Weighted average interest rate		1.05 	%		0.98 	%		0.81 	%		0.83 	%		1.24 	%		1.83 	%		0.98 	%		
-Asset-backed securities		1,059 			872 			413 			146 			128 			72 			2,690 			2,572 	
-Weighted average interest rate		0.99 	%		1.30 	%		1.37 	%		1.39 	%		1.41 	%		1.06 	%		1.19 	%		
-Foreign government and agency securities		519 			19 			— 			— 			— 			— 			538 			535 	
-Weighted average interest rate		4.24 	%		0.60 	%		— 	%		— 	%		— 	%		— 	%		4.11 	%		
-Other fixed income securities		138 			61 			48 			— 			— 			— 			247 			237 	
-Weighted average interest rate		0.40 	%		0.56 	%		1.15 	%		— 	%		— 	%		— 	%		0.58 	%		
-$	47,934 			$	3,796 			$	3,347 			$	1,290 			$	217 			$	147 			$	56,731 			
-Cash equivalents and marketable fixed income securities																$	56,016 	
+This Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking statements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ materially from those expressed in forward-looking statements. See Item 1A of Part I — “Risk Factors.” As used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise.
+General
+We seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, content creators, advertisers, and employees.
+We have organized our operations into three segments: North America, International, and Amazon Web Services (“AWS”). These segments reflect the way the Company evaluates its business performance and manages its operations. Information on our net sales is contained in Item 8 of Part II, “Financial Statements and Supplementary Data — Note 10 — Segment Information.”
+Consumers
+We serve consumers through our online and physical stores and focus on selection, price, and convenience. We design our stores to enable hundreds of millions of unique products to be sold by us and by third parties across dozens of product categories. Customers access our offerings through our websites, mobile apps, Alexa, devices, streaming, and physically visiting our stores. We also manufacture and sell electronic devices, including Kindle, Fire tablet, Fire TV, Echo, Ring, Blink, and eero, and we develop and produce media content. We seek to offer our customers low prices, fast and free delivery, easy-to-use functionality, and timely customer service. In addition, we offer subscription services such as Amazon Prime, a membership program that includes fast, free shipping on millions of items, access to award-winning movies and series, and other benefits.
+We fulfill customer orders in a number of ways, including through: North America and International fulfillment networks that we operate; co-sourced and outsourced arrangements in certain countries; digital delivery; and through our physical stores. We operate customer service centers globally, which are supplemented by co-sourced arrangements. See Item 2 of Part I, “Properties.”
+Sellers
+We offer programs that enable sellers to grow their businesses, sell their products in our stores, and fulfill orders through us. We are not the seller of record in these transactions. We earn fixed fees, a percentage of sales, per-unit activity fees, interest, or some combination thereof, for our seller programs.
+Developers and Enterprises
+We serve developers and enterprises of all sizes, including start-ups, government agencies, and academic institutions, through AWS, which offers a broad set of on-demand technology services, including compute, storage, database, analytics, and machine learning, and other services.
+Content Creators
+We offer programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content.
+Advertisers
+We provide advertising services to sellers, vendors, publishers, authors, and others, through programs such as sponsored ads, display, and video advertising.
+3
+
+Competition
+Our businesses encompass a large variety of product types, service offerings, and delivery channels. The worldwide marketplace in which we compete is evolving rapidly and intensely competitive, and we face a broad array of competitors from many different industry sectors around the world. Our current and potential competitors include: (1) physical, e-commerce, and omnichannel retailers, publishers, vendors, distributors, manufacturers, and producers of the products we offer and sell to consumers and businesses; (2) publishers, producers, and distributors of physical, digital, and interactive media of all types and all distribution channels; (3) web search engines, comparison shopping websites, social networks, web portals, and other online and app-based means of discovering, using, or acquiring goods and services, either directly or in collaboration with other retailers; (4) companies that provide e-commerce services, including website development and hosting, omnichannel sales, inventory and supply chain management, advertising, fulfillment, customer service, and payment processing; (5) companies that provide fulfillment and logistics services for themselves or for third parties, whether online or offline; (6) companies that provide information technology services or products, including on-premises or cloud-based infrastructure and other services; (7) companies that design, manufacture, market, or sell consumer electronics, telecommunication, and electronic devices; (8) companies that sell grocery products online and in physical stores; and (9) companies that provide advertising services, whether in digital or other formats. We believe that the principal competitive factors in our retail businesses include selection, price, and convenience, including fast and reliable fulfillment. Additional competitive factors for our seller and enterprise services include the quality, speed, and reliability of our services and tools, as well as customers’ ability and willingness to change business practices. Some of our current and potential competitors have greater resources, longer histories, more customers, greater brand recognition, and greater control over inputs critical to our various businesses. They may secure better terms from suppliers, adopt more aggressive pricing, pursue restrictive distribution agreements that restrict our access to supply, direct consumers to their own offerings instead of ours, lock-in potential customers with restrictive terms, and devote more resources to technology, infrastructure, fulfillment, and marketing. The Internet facilitates competitive entry and comparison shopping, which enhances the ability of new, smaller, or lesser-known businesses to compete against us. Each of our businesses is also subject to rapid change and the development of new business models and the entry of new and well-funded competitors. Other companies also may enter into business combinations or alliances that strengthen their competitive positions.
+Intellectual Property
+We regard our trademarks, service marks, copyrights, patents, domain names, trade dress, trade secrets, proprietary technologies, and similar intellectual property as critical to our success, and we rely on trademark, copyright, and patent law, trade-secret protection, and confidentiality and/or license agreements with our employees, customers, partners, and others to protect our proprietary rights. We have registered, or applied for the registration of, a number of U.S. and international domain names, trademarks, service marks, and copyrights. Additionally, we have filed U.S. and international patent applications covering certain of our proprietary technology.
+Seasonality
+Our business is affected by seasonality, which historically has resulted in higher sales volume during our fourth quarter, which ends December 31.
+Human Capital
+Our employees are critical to our mission of being Earth’s most customer-centric company. As of December 31, 2022, we employed approximately 1,541,000 full-time and part-time employees. Additionally, we use independent contractors and temporary personnel to supplement our workforce. Competition for qualified personnel is intense, particularly for software engineers, computer scientists, and other technical staff, and constrained labor markets have increased competition for personnel across other parts of our business.
+As we strive to be Earth’s best employer, we focus on investment and innovation, inclusion and diversity, safety, and engagement to hire and develop the best talent. We rely on numerous and evolving initiatives to implement these objectives and invent mechanisms for talent development, including competitive pay and benefits, flexible work arrangements, and skills training and educational programs such as Amazon Career Choice (funded education for hourly employees) and the Amazon Technical Academy (software development engineer training). Over 100,000 Amazon employees around the world have participated in Career Choice. We also continue to inspect and refine the mechanisms we use to hire, develop, evaluate, and retain our employees to promote equity for all candidates and employees. In addition, safety is integral to everything we do at Amazon and we continue to invest in safety improvements such as capital improvements, new safety technology, vehicle safety controls, and engineering ergonomic solutions. Our safety team is dedicated to using the science of safety to solve complex problems and establish new industry best practices. We also provide mentorship and support resources to our employees, and have deployed numerous programs that advance employee engagement, communication, and feedback.
+4
+
+Available Information
+Our investor relations website is amazon.com/ir and we encourage investors to use it as a way of easily finding information about us. We promptly make available on this website, free of charge, the reports that we file or furnish with the Securities and Exchange Commission (“SEC”), corporate governance information (including our Code of Business Conduct and Ethics), and select press releases.
+Executive Officers and Directors
+The following tables set forth certain information regarding our Executive Officers and Directors as of January 25, 2023:
+Information About Our Executive Officers
+Name		Age		Position
+Jeffrey P. Bezos		59		Executive Chair
+Andrew R. Jassy		55		President and Chief Executive Officer
+Douglas J. Herrington		56		CEO Worldwide Amazon Stores
+Brian T. Olsavsky		59		Senior Vice President and Chief Financial Officer
+Shelley L. Reynolds		58		Vice President, Worldwide Controller, and Principal Accounting Officer
+Adam N. Selipsky		56		CEO Amazon Web Services
+David A. Zapolsky		59		Senior Vice President, General Counsel, and Secretary
  
-As of December 31, 2022, we had long-term debt with a face value of $70.5 billion, including the current portion, primarily consisting of fixed rate unsecured senior notes. See Item 8 of Part II, “Financial Statements and Supplementary Data — Note 6 — Debt” for additional information.
-31
+Jeffrey P. Bezos. Mr. Bezos founded Amazon.com in 1994 and has served as Executive Chair since July 2021. He has served as Chair of the Board since 1994 and served as Chief Executive Officer from May 1996 until July 2021, and as President from 1994 until June 1999 and again from October 2000 to July 2021.
+Andrew R. Jassy. Mr. Jassy has served as President and Chief Executive Officer since July 2021, CEO Amazon Web Services from April 2016 until July 2021, and Senior Vice President, Amazon Web Services, from April 2006 until April 2016.
+Douglas J. Herrington. Mr. Herrington has served as CEO Worldwide Amazon Stores since July 2022, Senior Vice President, North America Consumer from January 2015 to July 2022, and Senior Vice President, Consumables from May 2014 to December 2014.
+Brian T. Olsavsky. Mr. Olsavsky has served as Senior Vice President and Chief Financial Officer since June 2015, Vice President, Finance for the Global Consumer Business from December 2011 to June 2015, and numerous financial leadership roles across Amazon with global responsibility since April 2002.
+Shelley L. Reynolds. Ms. Reynolds has served as Vice President, Worldwide Controller, and Principal Accounting Officer since April 2007.
+Adam N. Selipsky. Mr. Selipsky has served as CEO Amazon Web Services since July 2021, Senior Vice President, Amazon Web Services from May 2021 until July 2021, President and CEO of Tableau Software from September 2016 until May 2021, and Vice President, Marketing, Sales and Support of Amazon Web Services from May 2005 to September 2016.
+David A. Zapolsky. Mr. Zapolsky has served as Senior Vice President, General Counsel, and Secretary since May 2014, Vice President, General Counsel, and Secretary from September 2012 to May 2014, and as Vice President and Associate General Counsel for Litigation and Regulatory matters from April 2002 until September 2012.
+5
 
-Foreign Exchange Risk
-During 2022, net sales from our International segment accounted for 23% of our consolidated revenues. Net sales and related expenses generated from our internationally-focused stores, including within Canada and Mexico (which are included in our North America segment), are primarily denominated in the functional currencies of the corresponding stores and primarily include Euros, British Pounds, and Japanese Yen. The results of operations of, and certain of our intercompany balances associated with, our internationally-focused stores and AWS are exposed to foreign exchange rate fluctuations. Upon consolidation, as foreign exchange rates vary, net sales and other operating results may differ materially from expectations, and we may record significant gains or losses on the remeasurement of intercompany balances. For example, as a result of fluctuations in foreign exchange rates throughout the year compared to rates in effect the prior year, International segment net sales decreased by $15.0 billion in comparison with the prior year.
-We have foreign exchange risk related to foreign-denominated cash, cash equivalents, and marketable securities (“foreign funds”). Based on the balance of foreign funds as of December 31, 2022, of $18.3 billion, an assumed 5%, 10%, and 20% adverse change to foreign exchange would result in declines of $915 million, $1.8 billion, and $3.7 billion.
-We also have foreign exchange risk related to our intercompany balances denominated in various foreign currencies. Based on the intercompany balances as of December 31, 2022, an assumed 5%, 10%, and 20% adverse change to foreign exchange rates would result in losses of $275 million, $555 million, and $1.1 billion, recorded to “Other income (expense), net.”
-See Item 7 of Part II, “Management’s Discussion and Analysis of Financial Condition and Results of Operations — Results of Operations — Effect of Foreign Exchange Rates” for additional information on the effect on reported results of changes in foreign exchange rates.
-Equity Investment Risk
-As of December 31, 2022, our recorded value in equity and equity warrant investments in public and private companies was $7.2 billion. Our equity and equity warrant investments in publicly traded companies, which primarily relate to Rivian, represent $5.0 billion of our investments as of December 31, 2022, and are recorded at fair value, which is subject to market price volatility. We record our equity warrant investments in private companies at fair value and adjust our equity investments in private companies for observable price changes or impairments. Valuations of private companies are inherently more complex due to the lack of readily available market data. The current global economic conditions provide additional uncertainty. As such, we believe that market sensitivities are not practicable. See Item 8 of Part II, “Financial Statements and Supplementary Data — Note 1 — Description of Business, Accounting Policies, and Supplemental Disclosures” for additional information.
-32
-
+Board of Directors
+Name		Age		Position
+Jeffrey P. Bezos		59		Executive Chair
+Andrew R. Jassy		55		President and Chief Executive Officer
+Keith B. Alexander		71		CEO, President, and Chair of IronNet, Inc.
+Edith W. Cooper		61		Former Executive Vice President, Goldman Sachs Group, Inc.
+Jamie S. Gorelick		72		Partner, Wilmer Cutler Pickering Hale and Dorr LLP
+Daniel P. Huttenlocher		64		Dean, MIT Schwarzman College of Computing
+Judith A. McGrath		70		Former Chair and CEO, MTV Networks
+Indra K. Nooyi		67		Former Chief Executive Officer, PepsiCo, Inc.
+Jonathan J. Rubinstein		66		Former co-CEO, Bridgewater Associates, LP
+Patricia Q. Stonesifer		66		Former President and Chief Executive Officer, Martha’s Table
+Wendell P. Weeks		63		Chief Executive Officer, Corning Incorporated
+ 
