@@ -6,7 +6,7 @@
 import re
 
 #returns the contents of an item using a start and end pattern
-def printItem(start, end, fileName):
+def printItem(start, end, inFile):
     #initialize a text string to store the text
     text = ""
 
@@ -16,24 +16,27 @@ def printItem(start, end, fileName):
 
     #iterate through each line in the file to find start pattern
     #open 10k file
-    with open(fileName, "r", encoding="utf8") as f:
-        #iterate through each line
-        for line in f:
+    try:
+        with open(inFile, "r", encoding="utf8") as f:
+            #iterate through each line
+            for line in f:
 
-            #when the start expression is found, add each line until the end expression is reached
-            if(re.search(start, line)):
+                #when the start expression is found, add each line until the end expression is reached
+                if(re.search(start, line)):
 
-                #continue until end is reached
-                while(not re.search(end, line)):
-                    #add line to the text string
-                    text += line
-                    #move to next line
-                    line = f.readline()
-                #break once end is reached
-                break
-
-    #print to file
-    printToFile(text)
+                    #continue until end is reached
+                    while(not re.search(end, line)):
+                        #add line to the text string
+                        text += line
+                        #move to next line
+                        line = f.readline()
+                    #break once end is reached
+                    break
+        #print to file
+        printToFile(text)
+    #10k not found error
+    except:
+        print("\nERROR: 10k file for this company was not found. ")
 
 #Takes in the user's question as input
 #Determines the company of interest and what part the user wants and then prints that part using printItem()
@@ -123,10 +126,15 @@ def printToFile(str):
     #notify that the output has been printed to a file
     print("\nThe answer has been written in an output file.")
     #open file for writing
-    with open("../data/output.txt", "w", encoding = "utf8") as outFile:
+    try:
+        with open("../data/output.txt", "w", encoding = "utf8") as outFile:
 
-        #write to file
-        outFile.write(str)
+            #write to file
+            outFile.write(str)
+    #output file not found, handle the error
+    except:
+        print("ERROR: Output file not found. Program has been terminated.")
+        exit()
 
 #main class
 def main():
