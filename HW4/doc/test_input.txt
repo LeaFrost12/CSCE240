@@ -16,7 +16,6 @@ Content-Transfer-Encoding
 Parts for Outlook:
 Received
 Authentication-Results
-Received
 Content-Type
 Content-Transfer-Encoding
 From

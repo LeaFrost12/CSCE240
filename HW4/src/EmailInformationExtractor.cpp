@@ -9,7 +9,6 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <stdlib.h>
 
 using namespace std;
 
@@ -56,6 +55,10 @@ void printContent(string headerFile, string start, string end)
                 break;
             }
         }
+    }
+    else
+    {
+        cout << "Error - file not found" << endl;
     }
     cout << "Here are the contents of that part:\n" << text << endl;
 }
@@ -229,12 +232,5 @@ int main()
 
     //return part
     returnPart(part, input);
-
-
-    
-
-
-
-
 
 }
