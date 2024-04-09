@@ -12,7 +12,7 @@ csv_file = "../data/output/chat_statistics.csv"
 
 #get the current time
 def getTime():
-    current_time = datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p")
+    current_time = datetime.now().strftime("%I_%M_%S_%p")
     return current_time
 
 #counts the number of rows in the csv file

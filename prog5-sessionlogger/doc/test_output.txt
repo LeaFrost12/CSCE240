@@ -1,6 +1,13 @@
 Instructions for running:
-From the "src" directory, run the command "python userintent2querymapper.py". 
-Run this command each time you wish to ask a question.
+For running the chatbot:
+    From the "src" directory, run the command "python chatbot.py". 
+    Ask a question related to the questions from "test_output.txt".
+For running session logger:
+    From the "src" directory, run the command "python sessionlogger.py". 
+    Run the commands:
+        python prog5-sessionlogger -summary
+        python prog5-sessionlogger -showchat [chat number]
+        python prog5-sessionlogger -showchat-summary [chat number]
 
 Supported commands/outputs (not case sensitive):
 
