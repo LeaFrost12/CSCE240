@@ -1,9 +1,9 @@
 #Lea Frost
-#PA 4 - user 2 intent query mapper
+#Chatbot
 #CSCE 240H - S24
 
 import wordmatcher
-import sessionslogger
+import sessionlogger
 import re
 import time
 
@@ -88,7 +88,6 @@ def findPart(str):
             text = f"\n{str} - I do not know this information.\nPlease include the business name and try again. You can ask about Apple or Amazon."
             print(text)
             return text
-        
         #business name was found, now decide what question they are asking and print the item contents
         #Item 1: Business
         if wordmatcher.isMatch(str, "BUSINESS"):
@@ -132,7 +131,9 @@ def findPart(str):
 
         #The question wasn't recognized, ask them to try again
         else:
-            text = f"\n\"{input}\" - I do not know this information.\nPlease ask one of the questions listed in the documentation file 'test_output.txt'."
+
+            text = f"\n\"{str}\" - I do not know this information.\nPlease ask one of the questions listed in the documentation file 'test_output.txt'."
+            print(text)
             
         return text
          
@@ -164,7 +165,9 @@ def main():
     system_utterances = 0
 
     #Create session file name
-    session_file = sessionslogger.makeFile()
+    current_time = sessionlogger.getTime()
+    session_file = f"..\data\chat_sessions\chatsession_{current_time}.txt"
+
     #out file name
     output_file = "..\data\output\output.txt"
 
@@ -194,6 +197,8 @@ def main():
 
     #calculate elapsed time
     elapsed_time = time.perf_counter() - start
+
+    sessionlogger.logSession("chatsession_" + current_time + ".txt", user_utterances, system_utterances, int(elapsed_time))
         
 
 if __name__ == "__main__":
