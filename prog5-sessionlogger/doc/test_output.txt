@@ -1,6 +1,6 @@
 Instructions for running:
 For running the chatbot:
-    From the "src" directory, run the command "python chatbot.py". 
+    From the "src" directory, run the command "python chatbotFE.py". 
     Ask a question related to the questions from "test_output.txt".
 For running session logger:
     From the "src" directory, run the command "python sessionlogger.py". 
