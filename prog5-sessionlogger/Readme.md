@@ -10,7 +10,7 @@ It also reports interaction statistics when requested.
 
 How to use:
 To run the chatbot, navigate to src and run
-'python chatbot.py' and ask questions.
+'python chatbotFE.py' and ask questions.
 Supported questions are listed in test_output.txt, but any
 input is acceptable.
 
