@@ -1,0 +1,56 @@
+HOW TO TEST:
+You must first interact with the chatbot, asking questions from test_output.txt.
+Then, run the session logger using the supported command line arguments listed 
+in report.txt and test_output.txt.
+
+Testing of system interaction:
+
+1
+User command:
+    python sessionlogger.py prog5-sessionlogger -summary    
+System output:
+    There are 3 chats to date with user asking 9 times and system reponding 9 times. Total duration is 61 seconds.
+
+User command:
+    python sessionlogger.py prog5-sessionlogger -showchat 3
+
+2
+System output:
+    Chat 3 is:
+
+    <USER INPUT>:
+
+    Amazon executive compensation
+
+    <SYSTEM OUTPUT>:
+    Item 11.        Executive Compensation
+
+    Information required by Item 11 of Part III is included in our Proxy Statement relating to our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
+
+    <USER INPUT>:
+
+    hi how are you?
+
+    <SYSTEM OUTPUT>:
+
+    HI HOW ARE YOU? - I do not know this information.
+    Please include the business name and try again. You can ask about Apple or Amazon.
+
+    <USER INPUT>:
+
+    quit
+
+    <SYSTEM OUTPUT>:
+    You have terminated the chat. Goodbye.
+
+3
+User command:
+    python sessionlogger.py prog5-sessionlogger -showchat-summary 2
+System output:
+    Chat 2 has user asking 5 times and system responding 5 times. Total duration is 32 seconds
+
+4
+User command:
+    python sessionlogger.py prog5-sessionlogger -showchat-summary 10
+System output:
+    ERROR: There are 3 sessions. Please choose a valid number.

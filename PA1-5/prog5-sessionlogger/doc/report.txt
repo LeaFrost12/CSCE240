@@ -1,0 +1,47 @@
+Lea Frost
+Report for PA5
+CSCE 240
+
+Instructions for running: 
+For running the chatbot:
+    From the "src" directory, run the command "python chatbotFE.py". 
+    Ask a question related to the questions from "test_output.txt".
+For running session logger:
+    From the "src" directory, run the command "python sessionlogger.py". 
+    Run the commands:
+        python prog5-sessionlogger -summary
+        python prog5-sessionlogger -showchat [chat number]
+        python prog5-sessionlogger -showchat-summary [chat number]
+
+The goal of this program is to be able to answer certain questions about both businesses 
+(Apple and Amazon) based on information from their 10-k forms. Each question must be mapped
+to a specific item/section from the form and the contents of that section is returned when
+a question is asked. The results of the question are written to an output file and to the 
+command line. 
+
+Each chat session is saved into its own text file with the time. Statistics about the 
+interaction are calculated and saved into a csv file. The session logger module allows
+the user to access information about the chats including a summary of all chat statistics, 
+the chat statistics for a particular chat, and the contents of a specific chat. This module
+operates via command line arguments listed above. 
+
+getTime(): Method for getting the current time which is use to create the chat session file name. 
+
+getRows(): Method for counting the rows in the csv file. This information is used to determine
+the session number and to verify user input.
+
+sumCol(): Method used for summing a column of the csv file. For example, it will sum all of 
+the times in order to determine the total time which is displayed in the summary.
+
+getChat(): Method for retreiving the contents of a specified chat session
+
+getValue(): return a value in the csv file using a row and column
+
+logSession(): Takes the calulated stats as input and writes them into the csv file
+
+main(): Main method that runs commands based on the command line argument and prints
+information to the user. 
+
+
+
+

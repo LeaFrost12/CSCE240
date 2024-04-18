@@ -1,0 +1,35 @@
+Lea Frost
+Report for PA3 
+CSCE 240
+
+Instructions for running: From the "src" directory, run the command "python userintent2querymapper.py". 
+Ask a question related to the questions from "test_output.txt".
+
+The goal of this program is to be able to answer certain questions about both businesses 
+(Apple and Amazon) based on information from their 10-k forms. Each question must be mapped
+to a specific item/section from the form and the contents of that section is returned when
+a question is asked. The results of the question are written to an output file and to the 
+command line. 
+
+I created a word matcher module that contains the methods that I implement in my userintent2querymapper
+module. The word matcher module contains the methods matchSentence(), matchWord(), editDistance(), and
+isMatch().
+
+The matchSentence() method iterates through the user input and finds matches of the mapped words.
+It continues to run until a single match is found or the end of the string is reached.
+The match percentage is calculated by dividing the number of matches by the number of words
+in the mapped sentence. 
+
+The matchWord() method calculated the edit distance between a user word and a mapped word, then 
+calculated the match percentage from the ratio of distance and mapped word length.
+
+The editDistance() method is a recursive function that counts the number of intertions, removals,
+and replacements needed to convert from one word to the other. If two words are exactly equal, they
+will have an edit distance of 0.
+
+The isMatch() function determines if two strings are a match if the match percentage is greater 
+than the threshold.
+
+In the userintent2querymapper module, I use the isMatch(method) to determine which supported intent
+matches the user utterance. If none match, the user is asked to try again. Like in the past PA's,
+the output is written in an output file.

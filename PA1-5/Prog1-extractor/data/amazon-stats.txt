@@ -1,0 +1,5 @@
+Statistical Report on Amazon's 2022 10-k form:
+Lines: 1982
+Words: 39961
+Chars: 271653
+Parts: 4

@@ -1,0 +1,5 @@
+Statistical Report on Apple's 2022 10-k form:
+Lines: 1692
+Words: 30092
+Chars: 203702
+Parts: 4
