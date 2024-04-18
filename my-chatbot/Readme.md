@@ -1,24 +1,34 @@
 Author: Lea Frost
 
 Code written for CSCE 240, PA6
+
 Code reuse from Tarun Ramkumar - WebScraper.py
 
 Description:
+
 This project answers user questions about a business based on
 the business's 10k form. The program is built to work for 
 Apple and Amazon, but can work for other companies.
 It also reports interaction statistics when requested.
 
 How to use:
+
 For running the chatbot:
+
     While in the directory "my-chatbot", run "python ./"
+    
 For running debug mode/iteraction stats:
+
     While in the directory "my-chatbot", run:
+    
         python ./ -summary
+        
         python ./ -showchat [chat number]
+        
         python ./ -showchat-summary [chat number]
 
 Layout:
+
 my-chatbot
     __main__.py
     data
