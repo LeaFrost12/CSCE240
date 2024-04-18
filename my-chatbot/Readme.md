@@ -8,7 +8,7 @@ Description:
 
 This project answers user questions about a business based on
 the business's 10k form. The program is built to work for 
-Apple and Amazon, but can work for other companies.
+Apple and Amazon, but can work for other companies if adjusted.
 It also reports interaction statistics when requested.
 
 How to use:
