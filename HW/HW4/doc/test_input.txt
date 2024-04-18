@@ -1,0 +1,34 @@
+Instructions: copy and paste the part you want for either gmail or outlook
+
+Parts for Gmail:
+Delivered-To
+Received
+X-Google-Smtp-Source
+From
+Content-Type
+Date
+Reply-To
+To
+Message-ID
+MIME-Version
+Content-Transfer-Encoding
+
+Parts for Outlook:
+Received
+Authentication-Results
+Content-Type
+Content-Transfer-Encoding
+From
+To
+CC
+Subject
+Thread-Topic
+Thread-Index
+Date
+Message-ID
+References
+In-Reply-To
+Accept-Language
+Content-Language
+X-MS-Has-Attach
+X-MS-Exchange-Organization-SCL
